@@ -33,13 +33,6 @@ The task is to maximize a hexadecimal number represented on a seven-segment disp
 - **Memoization**: Stores results of sub-problems to reduce redundant computations.
 - **Deque for Efficient Callstack Management**: Allows faster addition/removal of nodes during DFS traversal.
 
-## Computational Complexity
-- **Time Complexity**: \( O(n \cdot c^2) \), where:
-  - \( n \): Number of digits.
-  - \( c \): Number of swaps allowed.
-- **Space Complexity**:
-  - Polynomial due to pruning and memoization, avoiding exponential growth of the search tree.
-
 ## Extensions and Variants
 The program can be extended to handle additional constraints, such as:
 - Unlimited swaps but limited segments.
